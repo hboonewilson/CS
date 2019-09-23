@@ -34,23 +34,22 @@ def AmIDigits(aList):
     elif not AmID:
         return f"The length of the input is {len(aList)}."
 
-#Write a function that takes a list and a string, as arguments, and 
-#returns a Boolean based on whether or not all o fthe letters in the string 
+#Write a function that takes a list and a string, as 
+#arguments, and 
+#returns a Boolean based on whether or not all o fthe letters 
+#in the string 
 #appear somwhere in the list.
 def findLetters(myList, myString):
     concat = ''
-    #concat myList to make it easier to loop through to check it
-    for index in myList: 
-        concat += index
-    #iterate through the two lists...(one item of myString to all indexes
-    #in myList) 
-    #false conditional statement was_it_th
-    #loop through
-#Write a function that takes, as an argument, a list, and an integer, n. 
-#If the integer is negative, the function should return a list containing
-#two lists, one being the original list, and the other being a list of 
-#zeros to the absolute value of n. If n is zero, return the last element
-#in the list. Otherwise return the sum of the list
+    for item in myList:
+        concat += item
+    n = len(myString) 
+    for i in range(1, n) : 
+        if not myString[i] in concat: 
+            return False
+    else:
+        return True
+
 def finalFunction(myList, n):
     #using if statements, check what n is (negative/zero/neither)
     if n < 0:
