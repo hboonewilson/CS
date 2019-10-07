@@ -69,6 +69,8 @@ def runLengthEncoding(myList):
                 letstr = [index]
         else:
             letstr = [index]
+    #after reaching the end of the list, add the final stats for the last letter
+    #into retlist
     retlis.append(letstr[0])
     retlis.append(len(letstr))    
     return retlis

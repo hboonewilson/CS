@@ -61,5 +61,3 @@ def getLetters(myString):
                 #do nothing
                 pass
     return retlist
-            
-                    
