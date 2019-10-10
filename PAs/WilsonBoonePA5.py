@@ -1,3 +1,8 @@
+#Wilson Henry
+#Programming Assignment 
+#Section 0A04
+# OCT/10/19
+
 import random
 
 def getHawkID():
