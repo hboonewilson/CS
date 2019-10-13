@@ -59,9 +59,11 @@ def changeTheCase(myFile, case):
     #if case is upper filetowrite is 'upperCase.txt' 
     if case == 'upper':
         filetowrite = 'upperCase.txt'
+        ret = 'Converted file to upper case.'
     #eilf case is upper filetowrite is 'lowerCase.txt'
     elif case == 'lower':
         filetowrite = 'lowerCase.txt'
+        ret = 'Converted file to lower case.'
     #finally if case is neither return Invalid parameter
     else:
         return "Invalid parameter."
@@ -85,3 +87,4 @@ def changeTheCase(myFile, case):
     #close all files 
     rewritefile.close()
     fileOutput.close()
+    return ret

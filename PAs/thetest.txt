@@ -1,3 +1,3 @@
-CS
-INTRODUCTION TO COMPUTER SCIENCE ALL PYTHON ASSIGNMENTS AND PRACTICE
-BEST REPRESENTATION OF MY SKILLS WOULD BE IN THE PROGRAMMING ASSIGNMENTS (PA) AND DISCUSSION ASSIGNMENTS (DA) LOCATED IN THEIR FOLDERS. THE MOST RECENTLY ADDED ASSIGNMENTS SHOW THE MOST ADVANCED CONCEPTS WE ARE WORKING THROUGH 
+cs
+introduction to computer science all python assignments and practice
+best representation of my skills would be in the programming assignments (pa) and discussion assignments (da) located in their folders. the most recently added assignments show the most advanced concepts we are working through 
