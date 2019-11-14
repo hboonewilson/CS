@@ -56,11 +56,16 @@ def flipBits(myString):
 def xor(string1, string2):
     zero = '0'
     one = '1'
-    for number in string1 and string2:
+    for number in string1:
         if number == zero or number == one:
             pass
         else:
-            return 'not binary strings'   
+            return 'not binary strings'
+    for number in string2:
+        if number == zero or number == one:
+            pass
+        else:
+            return 'not binary strings'    
     if len(string1) == 4 and len(string2) == 4:
         pass
     else:
